@@ -65,15 +65,15 @@ calculate-mpn --file-path 'path/to/MPN.csv' \
 
 Command-Line Options
 ommand-Line Options
-`-f, --file-path`: Path to the CSV file containing the data. (required)
-`-n, --num-replicates`: Number of replicates per dilution level. (required)
-`-D, --dilution-levels`: Comma-separated dilution levels (e.g., --dilution-levels 1,10,100). (required)
-`-c, --counts-start-col`: The column index or name where the positive counts start. (required)
-`-o, --output-path`: Path to save the output CSV file with MPN estimates and credible intervals. Default is 'MPN_results.csv'.
-`-p, --plot/--no-plot`: Whether to generate a plot of the MPN results. Default is no plot.
-`-i, --id-col`: Column name for the site identifiers in the CSV file. (required if --plot is used)
-`-d, --dpi`: DPI for saving the plot. Default is 300.
-`-ft, --fig-type`: File type for saving the plot (e.g., png, jpg). Default is 'png'.
+- `-f, --file-path`: Path to the CSV file containing the data. (required)
+- `-n, --num-replicates`: Number of replicates per dilution level. (required)
+- `-D, --dilution-levels`: Comma-separated dilution levels (e.g., --dilution-levels 1,10,100). (required)
+- `-c, --counts-start-col`: The column index or name where the positive counts start. (required)
+- `-o, --output-path`: Path to save the output CSV file with MPN estimates and credible intervals. Default is 'MPN_results.csv'.
+- `-p, --plot/--no-plot`: Whether to generate a plot of the MPN results. Default is no plot.
+- `-i, --id-col`: Column name for the site identifiers in the CSV file. (required if --plot is used)
+- `-d, --dpi`: DPI for saving the plot. Default is 300.
+- `-ft, --fig-type`: File type for saving the plot (e.g., png, jpg). Default is 'png'.
 
 ### Acknowledgment
 The development of this application builds on the capabilities of various Python libraries, especially PyMC for Bayesian inference and Pandas for data manipulation. These libraries provide the essential tools needed for robust statistical modeling and analysis in microbiological research.) 
